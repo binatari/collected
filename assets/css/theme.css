@@ -1,4 +1,5 @@
 /*
+/*
   Template Name: One-health
   Template URI: https://macodeid.com/projects/one-health
   Copyright: MACode ID, https://macodeid.com/
@@ -1115,19 +1116,25 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 14px;
 }
 
-.navbar-nav > :last-child{
-  background-color: white;
-  border-radius: 15px;
+@media (min-width: 993px){
+
+  .navbar-nav > :last-child{
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .navbar-nav > :last-child a {
+    color: #024365 !important;
+   
+  }
+  
+  .red-bg.nav-item {
+    background-color: #FF4943 ;
+  }
+  
+
 }
 
-.navbar-nav > :last-child a {
-  color: #024365 !important;
- 
-}
-
-.red-bg.nav-item {
-  background-color: #FF4943 ;
-}
 
 
 .navbar-light .navbar-nav .nav-link {
