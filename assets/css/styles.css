@@ -1,0 +1,170 @@
+.header-bg, .slide-bg {
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 1;
+    background-image: url(../img/bg-circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    opacity: 0.4;
+}
+
+.contact {
+    background-color: #000;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.header-text {
+    z-index: 50;
+}
+
+.img-place {
+    z-index: 50;
+}
+
+.features-image {
+    border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+
+
+.feature-list {
+    border-radius: 1rem;
+    background-color: #F3F3F3;
+}
+
+.min-img {
+    height: 7rem;
+    width: auto;
+}
+
+.swiper-button-next, .swiper-button-prev { 
+    color: red;
+    position: relative;
+    appearance: none;
+    top: 0;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+
+ .swiper-button-next::after, .swiper-button-prev::after {
+     font-size: 1em;
+     font-weight: 400;
+ }
+
+.swiper a {
+    color: red;
+}
+
+.swiper-slide > div {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+ .swiper-slide {
+    min-height: 70%;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-self: flex-end;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .swiper-slide span {
+      border-radius: 10px;
+      background-color: #e5eaec;
+      color: #63808f;
+  }
+
+.swiper {
+    min-height: 500px;
+  }
+
+  .input-form .container {
+      background-color: #003049;
+      border-radius: 50px;
+  }
+
+  .input-form .row {
+      padding: 3em;
+  }
+
+  .input-form .row div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .input-form .row h3, .input-form .row p  {
+    align-self: flex-start;
+    
+}
+
+.input-form .row h3, .input-form .row p, .input-form .row button {
+    color: white;
+}
+
+.input-form .row form {
+    min-width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-form .row input {
+    min-width: 70%;
+    border: none;
+    padding: 15px;
+}
+
+.input-form .row button {
+    min-width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    background-color: #003049;
+    border: none;
+}
+
+@media (max-width: 568px){
+    .input-form .row form {
+        max-width: 90%;
+    }
+
+    .input-form .row input {
+        min-width: 50%;
+        max-width: 50%;
+        padding-right: 5px;
+    }
+
+    .input-form .row {
+        padding: 1.5em;
+    }
+    
+}
+
+.footer-label{
+    background-color: #003049;
+}
+
+
